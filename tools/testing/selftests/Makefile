@@ -64,6 +64,7 @@ TARGETS += timers
 endif
 TARGETS += tmpfs
 TARGETS += tpm2
+TARGETS += uptime
 TARGETS += user
 TARGETS += vm
 TARGETS += x86

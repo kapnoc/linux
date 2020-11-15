@@ -1347,4 +1347,8 @@ int __sys_getsockopt(int fd, int level, int optname, char __user *optval,
 		int __user *optlen);
 int __sys_setsockopt(int fd, int level, int optname, char __user *optval,
 		int optlen);
+
+#include <linux/time64.h>
+asmlinkage time64_t sys_uptime(time64_t *t);
+
 #endif
